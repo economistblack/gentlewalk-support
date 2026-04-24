@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GentleWalk</title>
+
+<style>
+  :root {
+    --bg: #f7f3df;
+    --card: #fffdf1;
+    --text: #173d2b;
+    --muted: #6f7f58;
+    --accent: #1f5b3a;
+    --line: rgba(23,61,43,.18);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    background: linear-gradient(180deg, var(--bg), #ffffff);
+    color: var(--text);
+    line-height: 1.75;
+  }
+  .wrap {
+    width: min(920px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 56px 0 72px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    padding: 36px;
+    box-shadow: 0 18px 50px rgba(23,61,43,.08);
+  }
+  h1 {
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    margin: 0 0 14px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-top: 36px;
+    letter-spacing: -0.02em;
+  }
+  p, li {
+    font-size: 17px;
+  }
+  .lead {
+    font-size: 20px;
+    color: var(--muted);
+    margin-bottom: 28px;
+  }
+  .nav {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 0 0 28px;
+  }
+  .nav a, .button {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: rgba(31,91,58,.10);
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .button {
+    background: var(--accent);
+    color: white;
+    margin-top: 12px;
+  }
+  .muted { color: var(--muted); }
+  .footer {
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 14px;
+  }
+  ul { padding-left: 22px; }
+  code {
+    background: rgba(31,91,58,.10);
+    padding: 2px 6px;
+    border-radius: 6px;
+  }
+</style>
+
+</head>
+<body>
+  <main class="wrap">
+    <nav class="nav">
+      <a href="./index.html">Marketing</a>
+      <a href="./support.html">Support</a>
+      <a href="./privacy.html">Privacy Policy</a>
+    </nav>
+
+    <section class="card">
+      <h1>GentleWalk</h1>
+      <p class="lead">걷는 순간마다 문장이 열리는 워킹북.</p>
+
+      <p>GentleWalk는 오디오북이 아닌 새로운 개념의 워킹북입니다. 사용자는 산책을 하며 이동 거리를 기록하고, 일정 거리를 걸을 때마다 새로운 영어 문장을 하나씩 만나게 됩니다.</p>
+
+      <h2>산책으로 읽는 새로운 경험</h2>
+      <p>단순히 화면을 넘기는 독서가 아니라, 사용자의 실제 걸음이 이야기를 앞으로 나아가게 합니다. 산책이 쌓일수록 문장이 열리고, 문장이 쌓일수록 하나의 이야기가 완성됩니다.</p>
+
+      <h2>영어를 자연스럽게 익히다</h2>
+      <p>GentleWalk는 짧은 영어 문장을 통해 부담 없이 영어에 노출될 수 있도록 돕습니다. 걷는 동안 하나의 문장을 읽고, 산책이 끝난 후 기록과 함께 다시 확인할 수 있습니다.</p>
+
+      <h2>나만의 산책 기록</h2>
+      <ul>
+        <li>산책 경로를 지도에 표시합니다.</li>
+        <li>이동 거리와 시간을 기록합니다.</li>
+        <li>일정 거리마다 영어 문장이 열립니다.</li>
+        <li>기록 화면에서 지난 산책을 확인할 수 있습니다.</li>
+      </ul>
+
+      <h2>몸과 마음을 위한 산책</h2>
+      <p>GentleWalk는 운동, 독서, 영어 학습을 하나의 흐름으로 연결합니다. 몸은 가볍게 움직이고, 마음은 차분히 정돈되며, 영어 문장은 자연스럽게 쌓입니다.</p>
+
+      <a class="button" href="./support.html">고객 지원 보기</a>
+
+      <div class="footer">
+        © 2026 GentleWalk. All rights reserved.
+      </div>
+    </section>
+  </main>
+</body>
+</html>
